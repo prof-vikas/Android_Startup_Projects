@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.graphics.PorterDuffColorFilter;
 import android.hardware.camera2.CameraManager;
 import android.os.Bundle;
 import android.view.View;
@@ -49,13 +51,13 @@ public class MainActivity extends AppCompatActivity {
                     // Turn off the flash here
                     isFlashOn = false;
                     btnFlash.setText("Turn on Flash Light");
-                    btnFlash.setBackgroundResource(R.color.teal_700);
+                    btnFlash.setBackgroundColor(Color.parseColor("#009688"));
                 }
                 else{
                     // Turn on the flash here
                     isFlashOn = true;
                     btnFlash.setText("Turn off Flash Light");
-                    btnFlash.setBackgroundResource(R.color.purple_200);
+                    btnFlash.setBackgroundColor(Color.parseColor("#E91E63"));
                 }
 
                 switchFlash(isFlashOn);
