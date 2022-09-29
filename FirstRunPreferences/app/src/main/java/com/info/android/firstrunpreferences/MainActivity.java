@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     txt_hello = findViewById(R.id.txt_hello);
 
     if(getFirstRun()){
-        setRunned();
+        setRunned() ;
 
         //Anything that you want to do in first run
 
