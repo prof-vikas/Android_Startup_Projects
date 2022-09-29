@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+<!--    first section-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listner only decimal point and sign"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/edt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+<!--    second section-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listner only decimal point"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+<!--    third section-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="positive number Listner"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+<!--    fourth section-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date listner"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+<!--    fifth section-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="multi tap listner"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <!--    sixth section-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qwerty listner"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
