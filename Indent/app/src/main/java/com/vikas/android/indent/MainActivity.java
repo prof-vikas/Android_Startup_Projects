@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         txt2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:+918828593914"));
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:+910000000000"));
                 startActivity(intent);
             }
         });
