@@ -24,7 +24,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19348deb-8323-42bc-b6ef-936e60f2dbe3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/surajinfomatic/androidui/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/surajinfomatic/androidui/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Indent/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
     </list>
@@ -176,5 +175,16 @@
       <updated>1664608518701</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
