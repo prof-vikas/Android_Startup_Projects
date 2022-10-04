@@ -9,10 +9,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView txtMessage, txtProgressDialog;
+    TextView txtMessage, txtProgressDialog, txtToastMessage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         txtMessage = findViewById(R.id.txt_message);
         txtProgressDialog = findViewById(R.id.txt_progress_dialog);
+        txtToastMessage = findViewById(R.id.txt_toast_message);
 
         txtMessage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 progressDialog();
+            }
+        });
+
+        txtToastMessage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                toastMessage();
             }
         });
 
@@ -58,6 +67,10 @@ public class MainActivity extends AppCompatActivity {
         progressDialog.setMessage("Progress Dialog message here !!!");
         progressDialog.setCanceledOnTouchOutside(false);
         progressDialog.show();
+    }
+
+    public void toastMessage(){
+        Toast.makeText(MainActivity.this,"This is toast Message",Toast.LENGTH_LONG).show();
     }
 
 }
