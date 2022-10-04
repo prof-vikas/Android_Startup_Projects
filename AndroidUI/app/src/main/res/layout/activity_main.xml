@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#AA9FC3">
+
+<!--    Creating table for formatting every element at proper place-->
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+<!--        adding rows 0 for headers-->
+        <TableRow
+            android:id="@+id/tbl_row0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Functions"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:gravity="center"
+                android:background="#dedede"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="imp1"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:gravity="center"
+                android:background="#dedede"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="imp2"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:gravity="center"
+                android:background="#dedede"/>
+
+
+        </TableRow>
+
+<!--        adding rows 1-->
+        <TableRow
+            android:id="@+id/tbl_row1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Image Button "
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/btn_back"
+                android:minWidth="50dp"
+                android:minHeight="50dp"/>
+
+            <ImageView
+                android:id="@+id/btn_forward"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/btn_forward"
+                android:minWidth="50dp"
+                android:minHeight="50dp"/>
+
+        </TableRow>
+
+<!--        adding rows 2-->
+        <TableRow
+            android:id="@+id/tbl_row2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Custom Button "
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/custom_rating"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/rating"
+                android:padding="10dp"/>
+
+            <ImageView
+                android:id="@+id/custom_shopping_cart"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cart"
+                android:padding="10dp"/>
+
+
+        </TableRow>
+
+<!--        adding rows 3-->
+        <TableRow
+            android:id="@+id/tbl_row3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Drop Down "
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+
+            <Spinner
+                android:id="@+id/dropdown_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_dropdown"
+                android:padding="10dp"
+                android:scaleX="0.7"
+                android:scaleY="0.7"/>
+
+            <Spinner
+                android:id="@+id/cst_dropdown_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#E91E63"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:gravity="center"
+                />
+
+
+        </TableRow>
+
+        <!--        adding rows 4-->
+        <TableRow
+            android:id="@+id/tbl_row4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Long press"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/lng_press1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="press here"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/lng_press2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="press here"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+
+
+        </TableRow>
+
+        <!--        adding rows 5-->
+        <TableRow
+            android:id="@+id/tbl_row5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Edit Type"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/edt_type_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="Username"
+                android:padding="10dp"
+                android:background="#dddddd"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edt_type_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="Password"
+                android:padding="10dp"
+                android:background="#dedede"
+                android:inputType="numberPassword" />
+
+        </TableRow>
+
+        <!--        adding rows 5-->
+        <TableRow
+            android:id="@+id/tbl_row6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Autocomplete"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="Search"
+                android:padding="10dp"
+                android:background="#96C2D6"
+                android:inputType="text" />
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="Search"
+                android:padding="10dp"
+                android:background="#96C2D6"
+                android:inputType="number" />
+
+        </TableRow>
+
+        <!--        adding rows 6-->
+        <TableRow
+            android:id="@+id/tbl_row7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CheckBox + radio"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_terms"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="I accept"
+                android:background="#5AC3B9" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_male"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Male"
+                        android:background="#5AC3B9"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_female"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Female"
+                        android:background="#5AC3B9"/>
+
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <!--        adding rows 7-->
+        <TableRow
+            android:id="@+id/tbl_row8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Custom button"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/custom_btn_1"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="Image bg btn"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:background="@drawable/gaphic"
+                android:textColor="#fff"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/custom_btn_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_btn_bg"
+                android:text="color bg btn"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAllCaps="false" />
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!"
+        android:gravity="center"
+        android:textColor="#009688"
+        />
+</LinearLayout>
