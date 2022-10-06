@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KoreaFragment"
+    android:orientation="vertical"
+    android:background="#CDC0C0">
+
+    <TextView
+        android:id="@+id/korea_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Korea Today "
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/korea_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A U.S. aircraft carrier will be redeployed to waters east of South Korea on Wednesday, South Korea's military said, one day after North Korea launched a ballistic missile over Japan and brought swift condemnation from the United States and its regional allies in response."
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#686565"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp" />
+
+    <TextView
+        android:id="@+id/korea_content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A U.S. aircraft carrier will be redeployed to waters east of South Korea on Wednesday, South Korea's military said, one day after North Korea launched a ballistic missile over Japan and brought swift condemnation from the United States and its regional allies in response."
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#686565"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp" />
+
+    <TextView
+        android:id="@+id/korea_content3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A U.S. aircraft carrier will be redeployed to waters east of South Korea on Wednesday, South Korea's military said, one day after North Korea launched a ballistic missile over Japan and brought swift condemnation from the United States and its regional allies in response."
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#686565"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp" />
+
+    <TextView
+        android:id="@+id/korea_content4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A U.S. aircraft carrier will be redeployed to waters east of South Korea on Wednesday, South Korea's military said, one day after North Korea launched a ballistic missile over Japan and brought swift condemnation from the United States and its regional allies in response."
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#686565"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp" />
+
+    <TextView
+        android:id="@+id/korea_content5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A U.S. aircraft carrier will be redeployed to waters east of South Korea on Wednesday, South Korea's military said, one day after North Korea launched a ballistic missile over Japan and brought swift condemnation from the United States and its regional allies in response."
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#686565"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp" />
+
+</LinearLayout>
