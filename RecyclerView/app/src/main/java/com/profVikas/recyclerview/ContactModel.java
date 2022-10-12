@@ -11,4 +11,10 @@ public class ContactModel {
         this.contact = contact;
         this.id = id;
     }
+
+    public ContactModel(String name, String contact, String id){
+        this.name = name;
+        this.contact = contact;
+        this.id = id;
+    }
 }
